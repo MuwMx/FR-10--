@@ -22,7 +22,7 @@ function getRandomFruits() {
 
 function playGame() {
     if (currentRound > 3) {
-        document.getElementById("resultMessage").textContent = userWin ? "Вітаємо! Ви перемогли!" : "Спроби закінчилися. Ви програли.";
+        document.getElementById("resultMessage").textContent = userWin ? "Вітаємо! Ви перемогли!" : "Спроби закінчилися. Ви програли(.";
         return;
     }
     
